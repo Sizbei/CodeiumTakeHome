@@ -1,4 +1,5 @@
 import { Header } from 'components/Header';
+import { Code } from 'components/Code';
 import { Button } from 'components/Button';
 import { ReactComponent as Logo } from 'assets/favicon.svg';
 
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
       <Header title="hola" />
       <Logo height={100} width={100} />
-      <Button onClick={() => alert('hola')}>Heyo</Button>
+      <Code title="hola" />
     </div>
   );
 }
